@@ -1,5 +1,7 @@
 import 'dart:io';
 
+import 'lib/application.dart';
+
 void main() {
   String name = "Tom";
   print(name);
@@ -70,12 +72,4 @@ void main() {
       ];
 
   print(intList2);
-}
-
-int add(int x, int y){
-  return x + y;
-}
-
-void hello(String msg){
-  print(msg);
 }
