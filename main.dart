@@ -163,5 +163,10 @@ void main() {
   Map<dynamic, dynamic> myDynaMapa = {1:'hELLO', 'WORLD': 'TRUE', 'KISS': 22};
   print(myDynaMapa);
 
+  late final int? a;
+  a = 12;
+  print(a);
+  print(myDynaMapa is Map<dynamic, dynamic>);
+
 
 }
